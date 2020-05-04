@@ -1,0 +1,196 @@
+header {
+        width: 100%;
+        height: 110px;
+        background-color: #569C87;
+        color: #E7C254;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 65px;
+        font-weight: bold;
+}
+body {
+        margin: 0;
+}
+a {
+        text-decoration: none;
+}
+/* .search {
+        width: 100%;
+        height: 50px;
+        background-color: #EDEDED;
+        display: flex;
+        align-items: center;
+}
+.fa-search {
+        font-size: 40px;
+        color: rgb(177, 165, 165);
+        display: inline-block;
+        transform: rotate(90deg);
+        margin-left: 30px;
+} */
+.container {
+    /* background: #ccc; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px auto;
+    }
+.square_group {
+        display: flex;
+        justify-content: center;
+        line-height: 3em;
+}
+.square{
+        width: 350px;
+        height: 500px;
+        background: #333;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 25px;
+        will-change: font-size;
+        transition: 0.7s font-size ease;
+        border: 6px solid #EDEDED;
+        border-radius: 10px;
+        margin: 50px;
+}
+.square p {
+        text-align: center;
+}
+.note_gradient {
+        font-size: 40px;
+        background: -webkit-linear-gradient(left, rgb(255, 81, 0),rgb(255, 230, 0));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.note a {
+        color: black;
+        font-style: italic;
+}
+.note {
+        background-color: #FCDEDA;
+        color: rgb(206, 28, 28);
+}
+.chic_gradient {
+        background: -webkit-linear-gradient(left, rgba(214, 86, 27, 0.753),rgba(156, 12, 175, 0.808));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.chic a {
+        color: rgba(158, 61, 16, 0.753);
+}
+.chic {
+        background-color: rgb(255, 227, 252);
+}
+.delice_gradient {
+        background: -webkit-linear-gradient(left, rgba(6, 21, 104, 0.753),rgb(52, 159, 221));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.delice a {
+        color: rgb(52, 159, 221);
+        font-style: italic;
+}
+.delice{
+        background-color: #F9F9F9;
+}
+.palette_gradient {
+        background: -webkit-linear-gradient(left, rgba(6, 68, 6, 0.753),rgba(126, 245, 97, 0.973));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+}
+.palette a {
+        color: rgba(18, 133, 18, 0.753);
+        font-style: italic;
+}
+.palette {
+        background-color: #FDFFFD;
+}
+.square:hover{
+            /* // Change scale */
+            /* transform: scale(1.2); */
+            font-size: 230%;
+}
+.prochainement {
+        width: 20%;
+        height: 50px;
+        background-color: #569C87;
+        color: #E7C254;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 50px;
+        font-size: 38px;
+        border-radius: 10px;
+}
+
+footer {
+        width: 100%;
+        height: 70px;
+        background-color: #569C87;
+        color: #E7C254;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 35px;
+}
+
+
+
+
+
+/* .circle{
+                // Change opacity
+                opacity: 0.1;
+} */
+
+/* .circle {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                background: blue;
+                will-change: opacity;
+                // Change opacity
+                opacity: 1;
+                transition: 1s opacity ease;
+} */
+
+
+/* .test{
+        position: absolute;
+        top: 500px;
+        width: 50px;
+        height: 50px;
+        background: red;
+        transform: scale(1);
+        will-change: transform;
+}
+.test:hover{
+        animation: 1s test_animation ease infinite;
+}
+.test::after{
+        content: '';
+        position: absolute;
+        left: 100px;
+        width: 50px;
+        height: 50px;
+        background: green;
+        display: inline-block;
+} */
+
+
+
+
+/* @keyframes test_animation {
+    0%
+        transform: scale(1) 
+    25%
+        transform: scale(1.5)
+    50%
+        transform: scale(1.25)
+    75%
+        transform: scale(5)
+    100%
+        transform: scale(1)} */
