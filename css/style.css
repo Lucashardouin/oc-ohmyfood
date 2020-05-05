@@ -61,12 +61,12 @@ a {
 }
 .note_gradient {
         font-size: 40px;
-        background: -webkit-linear-gradient(left, rgb(255, 81, 0),rgb(255, 230, 0));
+        background: -webkit-linear-gradient(left, rgb(255, 81, 0),rgb(231, 180, 11));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }
 .note a {
-        color: black;
+        color: rgb(56, 23, 4);
         font-style: italic;
 }
 .note {
