@@ -10,73 +10,74 @@ header {
     font-weight: bold;
 }
 body {
-    margin: 0;
+    margin: 0px 0px 200px 0px;
 }
 h2 {
-    margin-bottom: 0;
     font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    padding-top: 70px;
 }
 h3 {
-    color: rgb(56, 23, 4);
+    background: -webkit-linear-gradient(left, rgba(214, 86, 27, 0.753),rgba(156, 12, 175, 0.808));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 35px;
+    margin: 100px 0 50px 0;
 }
 h4 {
     margin-bottom: 0px;
-    font-size: 30px;
+    font-size: 25px;
 }
-h5 {
-    margin: 0px;
-    padding-top: 15px;
-    font-size: 40px;
+h4:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 li {
     list-style: none;
 }
-.titre_note {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
-    margin-bottom: 0px;
-    margin-top: 50px;
+.brown {
+    color: rgba(214, 86, 27, 0.753);
 }
-.note_gradient {
-    font-size: 65px;
-    padding-top: 70px;
-    background: -webkit-linear-gradient(left, rgb(255, 81, 0),rgb(231, 180, 11));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.purple {
+    color: rgba(156, 12, 175, 0.808);
 }
-.bottom_note {
-    padding: 0px 15px;
+.blue {
+    color: rgba(37, 17, 216, 0.904);
 }
-.note {
+.chic {
     width: 900px;
-    height: 1230px;
-    background-color: #FCDEDA;
+    height: 1000px;
+    background-color: rgb(255, 241, 254);
     display: flex;
     align-items: center;
     margin: 70px auto;
     flex-direction: column;
-    box-shadow: 5px black;
+    box-shadow: 0px 0px 10px 3px rgb(233, 230, 230);
+    border-radius: 5px;
 }
 .plats {
-    line-height: 2.5em;
-    vertical-align: 1px;
+    line-height: 2em;
     display: flex;
     font-size: 20px;
-    padding-bottom: 10px;
+    width: 650px;
+    justify-content: space-between;
 }
 .prix {
     font-weight: bold;
 }
 footer {
     width: 100%;
-    height: 70px;
+    height: 60px;
     background-color: #569C87;
     color: #E7C254;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: 35px;
+    position: fixed;
+    bottom:0;
 }
